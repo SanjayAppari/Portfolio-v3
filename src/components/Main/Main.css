@@ -1,0 +1,136 @@
+.main {}
+
+.main .about {
+    color: rgba(148 163 184);
+    padding: 0 20px;
+    padding: 50px 0;
+    padding-top: 10px;
+}
+
+.main .experience {
+    padding: 10px 0;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.main .skills {
+    padding: 20px 0;
+}
+
+.main .skills {
+    padding: 20px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .skills .skill-card {
+    position: relative;
+    width: 100%;
+
+    padding: 18px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main .skills .skill-card:hover {
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.2px);
+    -webkit-backdrop-filter: blur(3.2px);
+    border-top: .5px solid rgba(0, 255, 247, 0.44);
+}
+
+.main .skills .skill-card .skill-card-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.main .skills .skill-card:hover .skill-card-title {
+    color: aqua;
+}
+
+.main .skills .skill-card .skill-holder {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.main .skills .skill-card .skill-holder .skill {
+    height: 30px;
+    padding: 10px 15px;
+    border-radius: 40px;
+    /* background-color: rgba(27, 98, 87, 0.286); */
+    border: 1px solid rgba(148 163 184);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(148 163 184);
+    font-weight: 450;
+}
+
+
+.main .skills .skill-card .skill-holder .active {
+    border: 1px solid rgb(0, 241, 205);
+    color: rgb(0, 241, 205);
+}
+
+.main .skills .skill-card .skill-holder .skill:hover {
+    border: 1px solid rgb(0, 241, 205);
+    color: rgb(0, 241, 205);
+}
+
+.main .projects {
+    padding: 20px 0;
+    padding-top: 20px;
+}
+
+.redirect-text-style {
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.redirect-text-style:hover {
+    color: rgb(0, 241, 205);
+}
+
+.redirect-text-style:hover .fa-arrow-right {
+    padding-left: 8px;
+}
+
+.main .coding-profiles {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.main .coding-profiles Link {
+    position: relative;
+    width: 100%;
+}
+
+.main .section-title {
+    padding-top: 20px;
+    color: rgb(0, 241, 205);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main .section-title:hover {
+    gap: 15px
+}

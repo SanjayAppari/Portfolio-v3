@@ -1,0 +1,109 @@
+.header {
+    position: fixed;
+    top: 50px;
+    font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.header-details {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 80%;
+}
+
+.header-details .name-style {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.header-details .profession-style {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-details .intro-style {
+    position: relative;
+    width: 70%;
+    color: rgba(148 163 184);
+}
+
+.contact-heading-style {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.contact-details {
+    position: relative;
+    width: 60%;
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    width: 60%;
+    margin-top: 100px;
+    color: rgba(148 163 184);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    line-height: 2rem;
+}
+
+.nav-links .nav-link-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-links .nav-link-style:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.nav-line-style {
+    width: 20px;
+    height: .5px;
+    background-color: rgba(148 163 184);
+    margin-right: 5px;
+}
+
+.nav-links .nav-link-style:hover .nav-line-style {
+    width: 50px;
+    color: white;
+}
+
+.nav-active-style {
+    color: white;
+}
+
+.nav-active-line-style {
+    width: 50px;
+    color: white;
+}
+
+@media (max-width: 1023px) {
+    .header {
+        position: absolute;
+        width: 100%;
+    }
+
+    .header .header-details {
+        width: 100%;
+    }
+
+    .header-details .intro-style {
+        width: 100%;
+    }
+
+    .contact-details {
+        width: 100%;
+    }
+
+    .header .nav-links {
+        display: none;
+    }
+}
